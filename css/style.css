@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #FF5722;
+  }
+  
+  #pizza-types, #pizza-sizes {
+    margin-top: 20px;
+  }
+  
+  #order-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #order-button:hover {
+    background-color: #45a049;
+  }
+  
