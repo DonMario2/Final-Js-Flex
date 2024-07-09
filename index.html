@@ -7,28 +7,41 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Venta de Pizzas</h1>
+  <header>
+    <h1>Venta de Pizzas</h1>
+  </header>
+  
+  <section>
+    <!-- listado de productos --> 
+    <div class="container">
+      <div id="productosContainer" class="row"></div>
+    </div>
+  </section>
 
-  <div id="pizza-types">
-    <h2>Selecciona una tipo de pizza:</h2>
-    <select id="type-select">
-      <option value="margarita">Margarita</option>
-      <option value="pepperoni">Pepperoni</option>
-      <option value="hawaiana">Hawaiana</option>
-    </select>
-  </div>
+  <section>
+    <!-- para hacer un pedido -->
+    <div id="pizza-types">
+      <h2>Selecciona una tipo de pizza:</h2>
+      <select id="type-select">
+        <option value="margarita">Margarita</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="hawaiana">Hawaiana</option>
+      </select>
+    </div>
+  
+    <div id="pizza-sizes">
+      <h2>Selecciona un tamaño:</h2>
+      <input type="radio" id="quarter-size" name="size" value="cuarto">
+      <label for="quarter-size">Cuarto</label><br>
+      <input type="radio" id="half-size" name="size" value="media">
+      <label for="half-size">Media</label><br>
+      <input type="radio" id="full-size" name="size" value="completa">
+      <label for="full-size">Completa</label><br>
+    </div>
+  
+    <button id="add-button">Añadir al Pedido</button>
+  </section>
 
-  <div id="pizza-sizes">
-    <h2>Selecciona un tamaño:</h2>
-    <input type="radio" id="quarter-size" name="size" value="cuarto">
-    <label for="quarter-size">Cuarto</label><br>
-    <input type="radio" id="half-size" name="size" value="media">
-    <label for="half-size">Media</label><br>
-    <input type="radio" id="full-size" name="size" value="completa">
-    <label for="full-size">Completa</label><br>
-  </div>
-
-  <button id="order-button">Realizar Pedido</button>
 
   <script src="app/app.js"></script>
 </body>
