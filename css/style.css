@@ -2,9 +2,17 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
   }
-  
+
+  header{
+    background-image: url('../assets/banner3.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+  }
+
   h1 {
-    color: #FF5722;
+    color: #ffffff;
+    font-size: 50px;
   }
   
   #pizza-types, #pizza-sizes {
@@ -25,3 +33,6 @@ body {
     background-color: #45a049;
   }
   
+  .col-md-4 {
+    padding-top: 100px;
+  }

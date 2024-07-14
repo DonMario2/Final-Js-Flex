@@ -1,8 +1,8 @@
 [
     {
-      "imagen": "sources/pizza1.jpg",
-      "nombre": "Producto 1",
-      "descripcion": "Descripción del Pizza 1",
+      "imagen": "../assets/pizzza-primavera.jpg",
+      "nombre": "Primavera",
+      "descripcion": ["Muzzarella", "Rodajas de Tomate", "Huevos Duros", "Provolone", "Orégano, Aceitunas"],
       "tamaños": [
         {
           "tamaño": "Pequeña",
@@ -19,9 +19,9 @@
       ]
     },
     {
-      "imagen": "sources/pizza2.jpg",
-      "nombre": "Producto 2",
-      "descripcion": "Descripción del Pizza 2",
+      "imagen": "../assets/pizza-jamon-y-morrones.jpg",
+      "nombre": "Jamon y Morron",
+      "descripcion": ["Jamón Cocido", "Muzzarella", "Morrones Asados", "Orégano", "Aceitunas"],
       "tamaños": [
         {
           "tamaño": "Pequeña",
@@ -38,9 +38,9 @@
       ]
     },
     {
-      "imagen": "sources/pizza3.jpg",
+      "imagen": "../assets/pizza-calabresa.jpg",
       "nombre": "Producto 3",
-      "descripcion": "Descripción del Pizza 3",
+      "descripcion": ["Muzzarella", "Provenzal", "Orégano", "Calabresa en Rodajas", "Aceitunas"],
       "tamaños": [
         {
           "tamaño": "Pequeña",
@@ -53,5 +53,7 @@
         {
           "tamaño": "Grande",
           "precio": 14.99
-    }
-  ]
+        }
+      ]
+    } 
+]  
