@@ -21,28 +21,21 @@
   </section>
 
   <section>
-    <!-- para hacer un pedido -->
     <div id="pizza-types">
-      <h2>Selecciona una tipo de pizza:</h2>
-      <select id="type-select">
-        <option value="pizza1">Pizza1</option>
-        <option value="pizza2">Pizza2</option>
-        <option value="pizza3">Pizza3</option>
+      <h2>Selecciona un tipo de pizza:</h2>
+      <select id="type-select" class="form-control" onchange="loadSizes()">
+        <option value="">Elige una pizza</option>
       </select>
     </div>
   
-    <div id="pizza-sizes">
+    <div id="pizza-sizes" class="form-group d-none">
       <h2>Selecciona un tamaño:</h2>
-      <input type="radio" id="quarter-size" name="size" value="cuarto">
-      <label for="quarter-size">Cuarto</label><br>
-      <input type="radio" id="half-size" name="size" value="media">
-      <label for="half-size">Media</label><br>
-      <input type="radio" id="full-size" name="size" value="completa">
-      <label for="full-size">Completa</label><br>
+      <select id="size-select" class="form-control"></select>
     </div>
   
-    <button id="add-button">Añadir al Pedido</button>
+    <button id="add-button" class="btn btn-primary">Añadir al Pedido</button>
   </section>
+  
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

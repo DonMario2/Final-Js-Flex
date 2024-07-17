@@ -5,54 +5,56 @@
       "descripcion": ["Muzzarella", "Rodajas de Tomate", "Huevos Duros", "Provolone", "Orégano, Aceitunas"],
       "tamaños": [
         {
-          "tamaño": "Pequeña",
-          "precio": 8.99
+          "tamaño": "Cuarto",
+          "precio": 4000
         },
         {
-          "tamaño": "Mediana",
-          "precio": 10.99
+          "tamaño": "Media",
+          "precio": 6000
         },
         {
-          "tamaño": "Grande",
-          "precio": 12.99
+          "tamaño": "Completa",
+          "precio": 11000
         }
       ]
     },
+
     {
       "imagen": "../assets/pizza-jamon-y-morrones.jpg",
       "nombre": "Jamon y Morron",
       "descripcion": ["Jamón Cocido", "Muzzarella", "Morrones Asados", "Orégano", "Aceitunas"],
       "tamaños": [
         {
-          "tamaño": "Pequeña",
-          "precio": 9.99
+          "tamaño": "Cuarto",
+          "precio": 4000
         },
         {
-          "tamaño": "Mediana",
-          "precio": 11.99
+          "tamaño": "Media",
+          "precio": 7000
         },
         {
-          "tamaño": "Grande",
-          "precio": 13.99
+          "tamaño": "Completa",
+          "precio": 13500
         }
       ]
     },
+    
     {
       "imagen": "../assets/pizza-calabresa.jpg",
-      "nombre": "Producto 3",
+      "nombre": "Calabresa",
       "descripcion": ["Muzzarella", "Provenzal", "Orégano", "Calabresa en Rodajas", "Aceitunas"],
       "tamaños": [
         {
-          "tamaño": "Pequeña",
-          "precio": 10.99
+          "tamaño": "Cuarto",
+          "precio": 4000
         },
         {
-          "tamaño": "Mediana",
-          "precio": 12.99
+          "tamaño": "Media",
+          "precio": 7500
         },
         {
-          "tamaño": "Grande",
-          "precio": 14.99
+          "tamaño": "Completa",
+          "precio": 14000
         }
       ]
     } 
